@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  anaconda:
+    build: .
+    container_name: anaconda-docker
+    tty: true
+    stdin_open: true
